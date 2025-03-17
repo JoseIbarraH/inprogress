@@ -4,12 +4,9 @@ import { useState, useEffect } from "react"
 import { Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { useTranslations } from 'next-intl';
-import Link from "next/link"
-import LanguageSwitcher from '@/components/LanguageSwitcher';
+import Link from "next/link";
 
 export default function Header() {
-  const t = useTranslations('Navbar')
 
   const [isScrolled, setIsScrolled] = useState(false)
 
@@ -29,18 +26,13 @@ export default function Header() {
     }
   }, [])
   
-  const home = t("home")
-  const plans = t("plans")
-  const terms = t("terms")
-  const about_us = t("about_us")
-  const contact_us = t("contact_us")
 
   const menuItems = [
-    { href: "#", label: home },
-    { href: "#", label: plans },
-    { href: "#", label: terms },
-    { href: "#", label: about_us },
-    { href: "#", label: contact_us },
+    { href: "#", label: "Home" },
+    { href: "#", label: "Plans" },
+    { href: "#", label: "Terms" },
+    { href: "#", label: "About us" },
+    { href: "#", label: "Contact us" },
   ]
 
   return (
@@ -50,7 +42,7 @@ export default function Header() {
       }`}
     >
       <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
-        <Link href="/" className={`text-2xl font-bold ${isScrolled ? "text-primary" : "text-text"}`}>
+        <Link href="#" className={`text-2xl font-bold ${isScrolled ? "text-primary" : "text-text"}`}>
           Orbital Colombia
         </Link>
         <ul className="hidden md:flex space-x-6">
@@ -61,9 +53,6 @@ export default function Header() {
               </Link>
             </li>
           ))}
-          <li>
-            <LanguageSwitcher />
-          </li>
         </ul>
         <Sheet>
           <SheetTrigger asChild>
@@ -84,9 +73,6 @@ export default function Header() {
                   {item.label}
                 </Link>
               ))} 
-              <li>
-                <LanguageSwitcher />
-              </li>
             </nav>
           </SheetContent>
         </Sheet>
