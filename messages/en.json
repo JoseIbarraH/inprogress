@@ -1,0 +1,25 @@
+{
+	"Navbar": {
+		"home": "Home",
+		"plans": "Plans",
+		"terms": "Terms and Conditions",
+		"about_us": "About Us",
+		"contact_us": "Contact Us"
+	},
+	"Terms": {
+		"title": "TERMS AND CONDITIONS",
+		"t1": "This document establishes the <empresa>Terms and Conditions</empresa> governing the provision of services offered by <empresa>Orbital Community Colombia S.A.S</empresa>, a travel agency located in Cartagena de Indias, Colombia. By hiring our services, the client accepts the following terms.",
+		"t2": {
+			"p1": "Orbital Community Colombia S.A.S acts as an intermediary between clients and tourism service providers (airlines, hotels, transportation, tour operators, among others), providing advice and reservation management.",
+			"p2": "The reservation is considered finalized once the user is provided with the confirmation number.",
+			"p3": "Our service is subject to weather conditions and/or the regulations of the current maritime authorities.",
+			"p4": "Cancellations and their costs are subject to the policies of each provider. The client may request a cancellation up to <span1>7 days before the reservation date and before 8:30 AM</span1> through our customer service channel: <correo>atencioncliente@orbitalcommunitycol.com</correo>. <span2>Requests made outside this period will not be refunded.</span2>",
+			"p5": "Children over the age of <span>3 years</span> must pay the full fare and must be accompanied by an adult.",
+			"p6": "<span1>Punctuality is essential.</span1> If the passenger does not show up at the scheduled pick-up time, it will be considered a <span2>NO SHOW</span2>, and the reservation will be lost without the right to a refund.",
+			"p7": "We reserve the right to refuse admission to any person whose behavior affects the safety, the normal course of the experience, or the well-being of other passengers."
+		},
+		"t3": "When initiating the reservation, the user <span>AUTHORIZES</span> the processing of personal data and the use of their payment method information to charge the reservation. By making the payment, the user confirms that they have received and expressly accepted the cancellation policies.",
+		"t4": "In accordance with Law 1581 of 2012 on Personal Data Protection in Colombia, the provided information will be treated securely and in compliance with current regulations.",
+		"t5": "Orbital Community Colombia S.A.S."
+	}
+}
